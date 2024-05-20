@@ -22,18 +22,38 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured: []
-citation: 'Silkuniene, Giedre (2024) High-frequency sine wave (2 kHz) stimulation
-  of individual hippocampal neurons: the effect of electric field (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001030/draft'
+citation: 'Silkuniene, Giedre; Kim, Vitalii; Pakhomov, Andrei (2024) High-frequency
+  (2 kHz) sine wave  stimulation of individual hippocampal neurons: the effect of
+  electric field (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001030/draft'
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
+  identifier: 0000-0001-8436-9718
   includeInCitation: true
   name: Silkuniene, Giedre
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCurator
   schemaKey: Person
-- {}
+- identifier: 0000-0003-0699-5582
+  includeInCitation: true
+  name: Kim, Vitalii
+  roleName:
+  - dcite:DataCollector
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0003-3816-3860
+  includeInCitation: true
+  name: Pakhomov, Andrei
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
+- awardNumber: 5R21EY034803
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-05-17T19:30:17.183063+00:00'
 description: 2 kHz stimulation of hippocampal neurons under different amplitudes (measured
   as one polarity, V; peak-to-peak would be two-fold larger). Sine wave amplitude
@@ -50,7 +70,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001030/versions/draft/assets/
-name: 'High-frequency sine wave (2 kHz) stimulation of individual hippocampal neurons:
+name: 'High-frequency (2 kHz) sine wave  stimulation of individual hippocampal neurons:
   the effect of electric field'
 protocol: []
 relatedResource: []
@@ -60,4 +80,7 @@ schemaVersion: 0.6.7
 studyTarget: []
 url: https://dandiarchive.org/dandiset/001030/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- identifier: 5R21EY034803
+  name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
+  schemaKey: Project
