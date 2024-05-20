@@ -55,6 +55,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-17T19:30:17.183063+00:00'
+datePublished: '2024-05-20T19:24:52.387612+00:00'
 description: 2 kHz stimulation of hippocampal neurons under different amplitudes (measured
   as one polarity, V; peak-to-peak would be two-fold larger). Sine wave amplitude
   was gradually increased during the initial 0.25 s, then stayed constant at the voltage
@@ -73,6 +74,18 @@ manifestLocation:
 name: 'High-frequency (2 kHz) sine wave  stimulation of individual hippocampal neurons:
   the effect of electric field'
 protocol: []
+publishedBy:
+  endDate: '2024-05-20T19:24:52.387612+00:00'
+  id: urn:uuid:3eb36a19-4554-4722-9bdb-8e1cc14c7374
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-05-20T19:24:52.387612+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8b54c9a2-4010-4f66-82bb-8355b6959c4a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
@@ -82,5 +95,5 @@ url: https://dandiarchive.org/dandiset/001030/draft
 version: draft
 wasGeneratedBy:
 - identifier: 5R21EY034803
-  name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
+  name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
   schemaKey: Project
